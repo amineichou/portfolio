@@ -1,0 +1,13 @@
+.switch {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 16px;
+    right: 0;
+    margin-right: 5px;
+}
+.switch >label svg {
+    padding-right: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,24 @@
+.about {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.about-image img {
+    width: 300px;
+}
+
+.about-text {
+    width: 300px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:620px) {
+    .about {
+        grid-template-columns: auto;
+        margin-top: 100px;
+    }
+}
