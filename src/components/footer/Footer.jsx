@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                <p>Made With ♥ By <span>Amine Ichou</span></p>
+                <p>©2022 - Made With ♥ By <span>Amine Ichou</span></p>
             </div>
         </div>
     );

@@ -33,7 +33,6 @@
     height: 400px;
 }
 
-
 .home-elseWhere svg {
     width: 20px;
     height: 20px;
@@ -42,6 +41,7 @@
     color: #376EBC;
     border-radius: 10px;
 }
+
 #dark .home-elseWhere svg:hover {
     background-color: #202020;
 }
@@ -59,10 +59,11 @@
         width: 300px;
     }
 
-    .home-text{
+    .home-text {
         width: 300px;
         height: 200px;
     }
+
     .home-image {
         width: 300px;
         height: 300px;
@@ -74,4 +75,28 @@
         margin-top: 0;
         grid-template-columns: auto;
     }
+}
+
+.home-swipup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.home-swipup button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.home-swipup svg {
+    width: 40px;
+    height: 40px;
+    fill: #202020;
+}
+
+#dark .home-swipup svg {
+    fill: #c8c8c8;
 }

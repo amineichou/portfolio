@@ -3,21 +3,23 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 const ParticlesFun = () => {
     const particlesInit = async (main) => {
-        console.log(main);
-
+        //console.log(main);
+        console.log('loading...');
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
         // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(main);
     };
         const particlesLoaded = (container) => {
-            console.log(container);
+            //console.log(container);
+            console.log('Loaded!');
         };
     return (
         <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
+            style={{}}
             options={
                 {
                     background: {
@@ -26,11 +28,11 @@ const ParticlesFun = () => {
                         },
                     },
                     style: {
-                        position: "absolute",
+                        position:'absolute',
                         top: "60px",
                         left: 0,
                         width: "100%",
-                        height: "100%",
+                        height: "450px",
                         fullScreen: false
                     },
                     interactivity: {

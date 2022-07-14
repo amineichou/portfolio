@@ -7,7 +7,7 @@ const Projects = () => {
             <div className='projects'>
                 <div className="project-elemnets">
                     <a
-                        href="https://amineichou.github.io/WeatherApp-reactJs/"
+                        href="https://github.com/amineichou"
                         target={'_blank'}
                         rel="noreferrer"
                     >
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
                 <div className="project-elemnets">
                     <a
-                        href="https://amineichou.github.io/WeatherApp-reactJs/"
+                        href="https://github.com/amineichou"
                         target={'_blank'}
                         rel="noreferrer"
                     >
@@ -48,7 +48,9 @@ const Projects = () => {
             <div className="SeeAllProjects">
                 <div>
                     <a
-                        href="https://github.com/amineichou">
+                        href="https://github.com/amineichou"
+                        target={'_blank'}
+                        rel="noreferrer" >
                         See All Projects
                     </a>
                 </div>
